@@ -134,4 +134,4 @@ def get_result(message):
         bot.reply_to(message, "Please provide valid AC numbers or names separated by commas.")
 
 # Polling loop to keep the bot active
-bot.polling(timeout=36000)
+bot.polling()
